@@ -1,0 +1,258 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: beige !important;
+}
+
+p {
+    margin: 0;
+}
+
+.row {
+    width: 800px;
+    background-color: beige;
+}
+
+.fontsize-1 {
+    font-size: 17px;
+    padding-top: 30px;
+    padding-left: 26px;
+    margin-bottom: -9px;
+    display: inline-block;
+}
+
+.numbercard {
+    padding-top: 50px;
+    padding-left: 15px;
+    font-size: 12px;
+    margin-bottom: -13px;
+}
+
+.numbercard1 {
+    padding-left: 15px;
+    margin-bottom: -20px;
+    font-size: 12px;
+}
+
+.numbercard2 {
+    position: absolute;
+    margin-left: 214px;
+    margin-top: -58px;
+    font-size: 12px;
+}
+
+.card1 {
+    background-color: #f4f4f4;
+    border-radius: 15px;
+    border: 1px;
+    margin: 25px;
+    padding: 5px;
+    width: 360px;
+    height: 210px;
+    box-shadow: 1px 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.datasending {
+    margin-top: 4px;
+    padding-left: 30px;
+    color: dimgrey;
+}
+
+.input1 {
+    margin-top: 19px;
+    border: none;
+
+}
+
+.input2 {
+    margin-top: 19px;
+    border: none;
+}
+
+.line1 {
+    top: 90px;
+    margin: 17px;
+    width: 315px;
+    position: absolute;
+}
+
+.line2 {
+    margin: 24px;
+    margin-left: 22px;
+    width: 40px;
+    position: absolute;
+    float: left;
+}
+
+.line2-1 {
+    margin-left: 76px;
+    margin-top: -17px;
+    width: 40px;
+    position: absolute;
+}
+
+.line3 {
+    margin-left: 211px;
+    margin-top: -17px;
+    width: 50px;
+    position: absolute;
+}
+
+.line2-1-1 {
+    clear: left;
+}
+
+.line4 {
+    top: 167px;
+    margin: 17px;
+    width: 315px;
+}
+
+.inputer {
+    padding-left: 10px;
+    background-color: #f4f4f4;
+    margin-left: 16px;
+    width: 320px;
+    border: hidden;
+    outline: none;
+}
+
+.inputer1 {
+    padding-left: 10px;
+    background-color: #f4f4f4;
+    margin-left: 16px;
+    width: 50px;
+    border: hidden;
+    outline: none;
+    float: left;
+}
+
+.inputer1-1 {
+    clear: left;
+}
+
+.inputer2 {
+    padding-left: 10px;
+    background-color: #f4f4f4;
+    margin-left: 77px;
+    margin-top: -41px;
+    position: absolute;
+    width: 50px;
+    border: hidden;
+    outline: none;
+}
+
+.inputer3 {
+    padding-left: 10px;
+    background-color: #f4f4f4;
+    margin-left: 210px;
+    margin-top: -41px;
+    position: absolute;
+    width: 50px;
+    border: hidden;
+    outline: none;
+}
+
+.question {
+    margin-left: 262px;
+    margin-top: -125px;
+}
+
+.inputer4 {
+    margin-left: 24px;
+    width: 360px;
+}
+
+.fontsize-2 {
+
+}
+
+.datagetting {
+    padding-top: 34px;
+    padding-left: 22px;
+    color: dimgrey;
+}
+
+.card2 {
+    background-color: #f4f4f4;
+    border-radius: 15px;
+    border: 1px;
+    margin: 40px;
+    margin-left: 19px;
+    margin-top: 25px;
+    padding: 5px;
+    width: 360px;
+    height: 210px;
+    box-shadow: 1px 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.card2-1 {
+    height: 84px;
+}
+
+.sender {
+    padding-left: 24px;
+    font-size: 12px;
+}
+
+.summa {
+    margin-left: 24px;
+    margin-bottom: 2px;
+    font-size: 12px;
+}
+
+.button1 {
+    width: 360px;
+    background-color: green;
+    color: white;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+.bank_card {
+    position: relative;
+}
+
+.bank_card .card_label {
+    width: 50px;
+    height: 35px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bank_card .card_label.visa {
+    background-image: url(../resources/visa.svg);
+}
+
+.bank_card .card_label.master_card {
+    background-image: url(../resources/mastercard.svg);
+}
+
+.bank_card .card_label.maestro {
+    background-image: url(../resources/maestro.svg);
+}
+
+.currency_input {
+    position: relative;
+    display: inline-block;
+}
+
+.currency_input input {
+    padding-right: 40px;
+}
+
+.currency {
+    display: none;
+    position: absolute;
+    right: 5px;
+    top: 2px;
+    color: gray;
+}
+
+.visible {
+    display: block;
+}
